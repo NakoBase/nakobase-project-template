@@ -1,0 +1,1 @@
+# NakoBase's project template
