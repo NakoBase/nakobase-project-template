@@ -29,8 +29,8 @@ jobs:
         env:
           GIT_PR_RELEASE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_PR_RELEASE_BRANCH_PRODUCTION: main
-          GIT_PR_RELEASE_BRANCH_STAGING: $branch_name
-          GIT_PR_RELEASE_LABELS: $branch_prefix
+          GIT_PR_RELEASE_BRANCH_STAGING: ${{ env.branch_name }}
+          GIT_PR_RELEASE_LABELS: ${{ env.branch_prefix }}
           GIT_PR_RELEASE_TITLE: "【RELEASE】"
           GIT_PR_RELEASE_TEMPLATE: .pr-release-template
         run: |
