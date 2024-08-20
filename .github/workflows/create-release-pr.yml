@@ -36,4 +36,4 @@ jobs:
         run: |
           gem install -N git-pr-release -v "2.2.0"
           gem install octokit -v 4.25.1
-          git-pr-release --no-fetch
+          git-pr-release --no-fetch --squashed
