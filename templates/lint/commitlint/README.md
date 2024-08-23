@@ -7,7 +7,7 @@ Commit conventions allow your team to add more semantic meaning to your git hist
 ## Package Installation
 
 ```bash
-pnpmn add -D @commitlint/{cli,config-conventional} husky
+pnpm add -D @commitlint/{cli,config-conventional} husky
 ```
 
 ## Configuration
