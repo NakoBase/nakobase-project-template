@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/nakobase/nakobase-project-template/compare/v1.0.0...v1.1.0) (2024-08-23)
+
+
+### Features
+
+* ignore body-max-line-length in commitlint config file ([29b6b4a](https://github.com/nakobase/nakobase-project-template/commit/29b6b4a76db1b5fbface9d83129a524a425ef30e))
+
 # 1.0.0 (2024-08-23)
 
 
